@@ -3,8 +3,8 @@ $(document).ready(function () {
 });
 // add town
 function addTown() {
-  let townNamee = $("#townNameForAdd").val();
-  $("#townNameForAdd").val("");
+  let townName = $("#townNameForAdd").val();
+  $("#townNameForAdd").val(",");
   $("#towns").append($("<option>").text(townName));
   $("#result").text(townName + " added.");
 }
