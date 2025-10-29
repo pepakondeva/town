@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#btnAdd").click(addTown);
 });
-# add town
+// add town
 function addTown() {
   let townName = $("#townNameForAdd").val();
   $("#townNameForAdd").val("");
